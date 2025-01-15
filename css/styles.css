@@ -16,6 +16,10 @@ body {
   padding: 40px;
 }
 
+#typing {
+  height: 58px;
+}
+
 #fullpage {
   width: 80%;
   margin: 0 auto;
