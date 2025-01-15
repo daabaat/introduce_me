@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pretendard", sans-serif;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+#fullpage {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#profile {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px; /* 약간의 모서리 둥글기 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+#hello {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hi {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00304d;
+  margin-bottom: 15px;
+}
+
+#info {
+  text-align: left;
+}
+
+#info p {
+  font-size: 2rem;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Section 2 스타일 */
+
+#section2 h2 {
+  font-size: 3rem;
+  color: #ef6c00;
+  margin-bottom: 20px;
+}
+
+#section2 p {
+  font-size: 2rem;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Section 3 스타일 */
+
+#section3 h2 {
+  font-size: 3rem;
+  color: #388e3c;
+  margin-bottom: 20px;
+}
+
+#section3 p {
+  font-size: 2rem;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+#section4 h2 {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+#section4 p {
+  font-size: 2rem;
+  margin: 10px 0;
+  line-height: 1.6;
+}
